@@ -9,3 +9,5 @@ The article consists of a number of samples explaining how to get started with t
 Lastly, the article shows the tools used in many applications in production. Mainly focusing on Mocha and Chai, letting the reader know what they are and how they are used.
 
 Hope you enjoy!
+
+You can read the full tutorial [here](https://hackernoon.com/a-crash-course-on-testing-with-node-js-6c7428d3da02)!
