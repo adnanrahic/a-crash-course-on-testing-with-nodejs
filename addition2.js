@@ -12,9 +12,9 @@ function testAddTwoNumbers() {
   console.log('Expect ' + sum1 + ' to equal ' + sum2 + '.');
   
   if ( sum1 === sum2 ) 
-    return console.log('Passed');
+    return console.log('Passed.');
   
-  console.log('Failed');
+  console.log('Failed.');
 }
 
 testAddTwoNumbers();
