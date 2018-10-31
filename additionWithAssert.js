@@ -1,14 +1,14 @@
-var assert = require('assert');
+const assert = require('assert');
 
 function addTwoNumbers(x, y) {
   return x + y;
 }
 
 function testAddTwoNumbers() {
-  var x = 5;
-  var y = 1;
-  var sum1 = x + y;
-  var sum2 = addTwoNumbers(x, y);
+  const x = 5;
+  const y = 1;
+  const sum1 = x + y;
+  const sum2 = addTwoNumbers(x, y);
 
   console.log('addTwoNumbers() should return the sum of its two parameters.');
   console.log('Expect ' + sum1 + ' to equal ' + sum2 + '.');
