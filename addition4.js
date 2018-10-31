@@ -1,4 +1,4 @@
-var assert = {
+const assert = {
   equal: function(firstValue, secondValue) {
     if (firstValue != secondValue) 
       throw new Error('Assert failed, ' + firstValue + ' is not equal to ' + secondValue + '.');
@@ -12,12 +12,12 @@ function addTwoNumbers(x, y) {
 function testAddTwoNumbers() {
 
   // 1. ARRANGE
-  var x = 5;
-  var y = 1;
-  var sum1 = x + y;
+  const x = 5;
+  const y = 1;
+  const sum1 = x + y;
 
   // 2. ACT
-  var sum2 = addTwoNumbers(x, y);
+  const sum2 = addTwoNumbers(x, y);
 
   console.log('addTwoNumbers() should return the sum of its two parameters.');
   console.log('Expect ' + sum1 + ' to equal ' + sum2 + '.');
